@@ -3,8 +3,6 @@
 - Interview test conducted by Syhtek Software Solutions.
 - Simple Ecommerce landing page which I was instructed to created in 24 hours.
 
-Link to visit the website: https://devattaulnoor.github.io/react_interview_syhtek
-
 ## Technologies Used
 - **Vite**: A fast build tool and development server for modern web projects. 
 - **Reactjs**: A JavaScript library for building user interfaces.
