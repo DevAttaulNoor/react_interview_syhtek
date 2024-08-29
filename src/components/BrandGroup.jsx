@@ -1,19 +1,20 @@
 import React from 'react'
 import Brands from '../assets/Images/Brands.png'
+import BrandsBg from '../assets/Images/BrandsBg.png'
 
 const BrandGroup = () => {
     return (
-        <div
-            style={{
-                backgroundImage: 'linear-gradient(to right, black 78%, transparent 78%), linear-gradient(to bottom, transparent 90%, black 10%, black 100%)',
-                borderRadius: "0px 100px 0px 0px"
-            }}
-            className='py-16'
-        >
+        <div>
+            <img
+                src={BrandsBg}
+                alt="brandsGroup"
+                className='w-full'
+            />
+
             <img
                 src={Brands}
                 alt="brandsGroup"
-                className='w-2/3'
+                className='w-3/4 absolute bottom-0 left-0 p-12'
             />
         </div>
     )

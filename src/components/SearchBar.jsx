@@ -4,7 +4,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const SearchBar = () => {
     return (
-        <div className='flex items-center justify-center w-[560px] p-1 my-7 bg-white shadow-lg rounded-[28px]'>
+        <div
+            className='flex items-center justify-center w-[680px] p-1 my-7 bg-white shadow-full rounded-cylindrical'>
             <RiSearch2Line
                 size={30}
                 className='ml-3 text-slate-400'
@@ -12,17 +13,14 @@ const SearchBar = () => {
 
             <input
                 type="text"
-                // value={''}
+                value={''}
                 placeholder='Search for a product, gtin, brand or category'
-                // onChange={(e) => setInputValue(e.target.value)}
+                onChange={() => { }}
                 className='w-full px-1 py-3 mx-2 bg-white outline-none text-slate-950'
             />
 
-            <button className='p-3 rounded-full bg-primary'>
-                <IoIosArrowRoundForward
-                    size={30}
-                    className='text-white'
-                />
+            <button className='p-3 rounded-full btn-primary'>
+                <IoIosArrowRoundForward size={30} />
             </button>
         </div>
     )

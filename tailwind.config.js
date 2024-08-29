@@ -6,18 +6,27 @@ export default {
     ],
     theme: {
         extend: {
-            // Colors used in Project
+            // Colors
             colors: {
                 primary: '#c90f50',
             },
 
-            // Fonts used in Project
+            // Fonts
             fontFamily: {
                 primary: "Poppins",
                 secondary: "Montserrat"
-            }
+            },
+
+            // Box Shadow
+            boxShadow: {
+                full: '0px 0px 5px 5px rgba(0, 0, 0, 0.15)',
+            },
+
+            // Border Radius
+            borderRadius: {
+                cylindrical: '32px',
+            },
         },
     },
-    darkMode: 'class',
     plugins: [],
 }

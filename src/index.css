@@ -9,18 +9,21 @@
     body {
         width: 100%;
         height: 100vh;
-        overflow-x: hidden;
-        background-color: #fdfeff;
-        background-image: url("./assets/Images/MainImg.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-attachment: fixed;
-        background-size: cover;
+        overflow: hidden;
+        background-color: #fff8f2;
     }
 }
 
 @layer components {
     .nav-link {
         @apply font-primary px-2 text-sm font-semibold cursor-pointer text-slate-400 hover:text-slate-950 hover:border-b-2 hover:border-primary
+    }
+
+    .nav-link-active {
+        @apply text-slate-950 border-b-2 border-primary
+    }
+
+    .btn-primary {
+        @apply text-white bg-primary border-primary border hover:bg-transparent hover:text-primary
     }
 }
