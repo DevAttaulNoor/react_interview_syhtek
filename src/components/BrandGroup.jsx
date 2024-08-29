@@ -4,17 +4,17 @@ import BrandsBg from '../assets/Images/BrandsBg.png'
 
 const BrandGroup = () => {
     return (
-        <div>
+        <div className='mt-14'>
             <img
-                src={BrandsBg}
-                alt="brandsGroup"
-                className='w-full'
+                src={Brands}
+                alt="brands"
+                className='absolute bottom-0 left-0 w-[75%] p-4 xl:w-3/4 xl:p-12 lg:p-10 md:p-8 sm:p-6'
             />
 
             <img
-                src={Brands}
-                alt="brandsGroup"
-                className='w-3/4 absolute bottom-0 left-0 p-12'
+                src={BrandsBg}
+                alt="brandsBg"
+                className='w-full absolute bottom-0 left-0 -z-40'
             />
         </div>
     )
